@@ -1,0 +1,80 @@
+@font-face { font-family: "AkvitaniaModern"; src: url("AkvitaniaModern.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+@font-face { font-family: "Eleonora"; src: url("Eleonora.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+
+* { margin: 0; padding: 0; 
+box-sizing: border-box;
+overflow: hidden;
+}
+body { min-height: 100vh; }
+#zapoln{ color: rgb(116, 237, 65); 
+font-family: "AkvitaniaModern"; 
+}
+p{font-size: 26px;
+text-indent: 1.5rem;    
+}
+.container-fluid{ display: block;
+padding-top: .3rem;
+}
+.container-fluid .main-video{ 
+display: none;
+}
+.container-fluid .main-video video{
+width: 100%;
+}    
+.container-fluid .video-list .vid video{
+margin-right: 3px;
+border: 1px dashed #b90d0d;
+border-radius: 15px;
+width: 90px;
+}
+.container-fluid .video-list .vid:hover{
+color: #eee; cursor: pointer;
+}
+.container-fluid .video-list .vid:active{
+color: #2980b9;
+}
+a{text-decoration: none;}
+.btn{color: white; margin-bottom: 10px;}
+.btn:hover{color: greenyellow;}
+.hide{display: none; }
+.podps{
+font-size: 22px;
+letter-spacing: 2px;
+animation: 20s in-out infinite;
+}
+@keyframes in-out {
+    0% { color: lawngreen; letter-spacing: 2px; }
+    10% { color: red }
+    20% { color: lightblue }
+    30% { color: yellow }
+    40% { color: lightgray }
+    50% { color: green; letter-spacing: 4px; }
+    60% { color: lightgray }
+    70% { color: yellow }
+    80% { color: lightblue }
+    90% { color: red }
+    100% { color: lawngreen; letter-spacing: 2px; }
+}
+       
+.mx-auto{
+color: wheat;
+position: absolute; 
+bottom: 0;
+align-items: center;
+justify-content: center;
+align-self: stretch;
+}
+.mx-auto2{
+position: absolute; 
+bottom: 10%;
+    align-items: center;
+justify-content: center;
+align-self: stretch;
+}
+*{
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
