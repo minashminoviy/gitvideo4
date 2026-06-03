@@ -1,6 +1,6 @@
 @font-face { font-family: "AkvitaniaModern"; src: url("AkvitaniaModern.ttf") format("truetype"); font-style: normal; font-weight: normal; }
 @font-face { font-family: "Eleonora"; src: url("Eleonora.ttf") format("truetype"); font-style: normal; font-weight: normal; }
-
+@font-face { font-family: "Mikadan"; src: url("Mikadan.ttf") format("truetype"); font-style: normal; font-weight: normal; }
 * { margin: 0; padding: 0; 
 box-sizing: border-box;
 overflow: hidden;
@@ -39,6 +39,7 @@ a{text-decoration: none;}
 .hide{display: none; }
 .podps{
 font-size: 22px;
+font-family: "Mikadan";
 letter-spacing: 2px;
 animation: 20s in-out infinite;
 }
@@ -49,10 +50,10 @@ animation: 20s in-out infinite;
     30% { color: yellow }
     40% { color: lightgray }
     50% { color: green; letter-spacing: 4px; }
-    60% { color: lightgray }
+    60% { color: gainsboro }
     70% { color: yellow }
-    80% { color: lightblue }
-    90% { color: red }
+    80% { color: lavender }
+    90% { color: orange }
     100% { color: lawngreen; letter-spacing: 2px; }
 }
        
